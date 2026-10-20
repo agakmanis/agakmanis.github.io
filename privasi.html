@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kebijakan Privasi — Backup Kantor Otomatis</title>
+  <style>
+    body { font: 1rem/1.6 system-ui, sans-serif; max-width: 42rem; margin: 3rem auto; padding: 0 1.25rem; color: #18212f; }
+    h1 { line-height: 1.2; }
+    a { color: #0645ad; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="index.html">Beranda</a></p>
+    <h1>Kebijakan Privasi</h1>
+    <p>Backup Kantor Otomatis adalah alat pribadi untuk mencadangkan file dari komputer kantor ke akun Google Drive yang dipilih pemilik akun.</p>
+    <h2>Akses Google Drive</h2>
+    <p>Aplikasi meminta izin untuk membaca dan mengelola file di Google Drive. Izin ini dapat mencakup seluruh Drive, meskipun proses backup normal hanya menulis cadangan ke folder BACKUP-KANTOR pada akun yang dihubungkan.</p>
+    <h2>Penggunaan dan penyimpanan data</h2>
+    <p>File sumber dibaca dari komputer kantor dan dikirim langsung ke Google Drive melalui rclone. Token akses Google disimpan secara lokal pada komputer backup agar jadwal otomatis dapat berjalan. Log lokal mencatat waktu, status, kesalahan, dan dapat memuat nama file.</p>
+    <p>Alat ini tidak mengirim file cadangan ke server milik pengembang dan tidak menjual data pengguna. File asli tidak dihapus oleh proses backup. File cadangan lama juga tidak dihapus secara otomatis; pemilik akun mengelola penghapusannya di Google Drive.</p>
+    <h2>Kontrol pemilik akun</h2>
+    <p>Pemilik akun dapat mencabut izin aplikasi melalui pengaturan keamanan Akun Google. Administrator komputer dapat menghentikan jadwal backup dan menghapus token serta log lokal saat aplikasi tidak lagi digunakan.</p>
+  </main>
+</body>
+</html>
